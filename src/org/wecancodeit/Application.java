@@ -6,5 +6,14 @@ public class Application {
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	class FamilyMember {
+		String lastName;
+		String firstName;
+		int age;
+		
+		public String getFullName() {
+			return firstName + " " + lastName;
+		}
+	}
 }
