@@ -1,10 +1,14 @@
 package org.wecancodeit;
 
+import java.util.Scanner;
+
 public class Application {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Scanner input = new Scanner(System.in);
+		System.out.println("What is the last name?");
+		String lastName = input.nextLine();
+		System.out.println("The last name is: " + lastName);
 	}
 	
 	class FamilyMember {
